@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*cabeçalho*/
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 149, 255);
+}
+/*texto cabeçalho*/
+label{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 10px;
+}
+/*elementos cabeçalho*/
+input, select, button{
+    font-size: 15px;
+    height: 30px;
+    margin: 10px;
+    border-color: rgb(233, 161, 255);
+    background-color: rgb(255, 231, 254);
+    color:rgb(128, 125, 125)
+}
+/*botões cabeçalho*/
+button{
+    width: 150px;
+    color: #fff;
+    background-color: rgb(227, 136, 250);
+}
+
+section {
+    display: flex;
+    justify-content:unset;
+    height: 90vh;
+}
+/*itens da divisão dos dias da semana*/
+.semana{
+    border: 1px solid rgb(255, 220, 220);
+    width: 14%;
+    padding-top: 20px;
+    background-color: rgb(255, 193, 222);
+    text-align: center;
+    color:rgb(163, 163, 163);
+  }
+/*nome do dia da semana*/
+h3 {
+    color: rgb(201, 107, 255);
+}
+
+.texto-riscado{
+    text-decoration: line-through;
+    text-decoration-color: rgb(255, 22, 22);
+    color:rgb(255, 0, 0);
+    font-size: 3vh;
+}
